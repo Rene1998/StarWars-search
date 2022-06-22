@@ -68,6 +68,10 @@ module.exports = {
     'prefer-promise-reject-errors': 'off',
     'func-names': 'off',
 
+		// my preferences
+		'indent': 'off',
+		'no-tabs': 'off',
+
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
