@@ -71,6 +71,7 @@ module.exports = {
 		// my preferences
 		'indent': 'off',
 		'no-tabs': 'off',
+		'space-before-function-paren': 'off',
 
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'

@@ -4,9 +4,12 @@ realtime fulltext search for Starwars characters
 
 ## Install the dependencies
 ```bash
-yarn
-# or
 npm install
+```
+
+## Setup your enviroment variables in .env
+```bash
+VUE_APP_API_STARWARS_URL="https://swapi.py4e.com/api/"
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
@@ -14,18 +17,7 @@ npm install
 quasar dev
 ```
 
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
 ### Build the app for production
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
