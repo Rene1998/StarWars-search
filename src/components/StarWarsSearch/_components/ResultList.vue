@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import axiosClient from '../../../utils/axiosClient'
+import axiosClient from 'src/utils/axiosClient'
 
 export default {
 	data() {

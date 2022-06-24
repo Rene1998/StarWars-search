@@ -10,7 +10,7 @@
 <script>
 export default {
 	components: {
-		'star-wars-search': () => import('../components/StarWarsSearch/StarWarsSearch.vue')
+		'star-wars-search': () => import('components/StarWarsSearch/StarWarsSearch.vue')
 	}
 }
 </script>
